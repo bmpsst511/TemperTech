@@ -3,9 +3,11 @@ title: '機器手臂開發過程 Robot Arm Developing'
 disqus: hackmd
 ---
 # TemperTech
-有溫度科技\
-**同步於HACKMD**
-test
+**J.T LEE**\
+致力於發展具有人性的科技，輔助智慧科技,物聯網科技,虛擬實境等相關技術\
+**同步於GITHUB 有溫度科技 TemperTech\
+https://github.com/bmpsst511/TemperTech**
+
 ![](https://i.imgur.com/z9BOXR9.png)
 
 
@@ -54,15 +56,16 @@ In the development of this robotic arm, we expect to use Mechanism rocker and ro
 ---
 公式
 \begin{gather*}
-F = 3(N-1)-2f_{L}-f_{H}\\
-F = 3(4-1)-2*2-0 = 3
+DOF = 3(N-1)-2f_{L}-f_{H}\\
+DOF = 3(4-1)-2*2-0 = 3
 \end{gather*}
+
 其中$N$代表機件數，$f_{L}$代表低對，$f_{H}代表高對$，迴轉對屬低對. 
 **因此我們得到所設計的機械手臂自由度為3**
 
 機器人的自由度是指機器人所具有的獨立坐標軸運動的數目，但一般不包括手部（末端操作器）的開合自由度。
 
-Among them, $N$ represents the number of parts, $f_{L}$ represents the low pair, $f_ {H}$ represents the high pair, and the rotation pair is the low pair.
+Among them,$N$represents the number of parts,$f_{L}$ represents the low pair,$f_ {H}$ represents the high pair, and the rotation pair is the low pair.
 **So we get the designed robot arm with 3 degrees of freedom.**
 
 The degree of freedom of the robot refers to the number of independent coordinate axis movements of the robot, but generally does not include the opening and closing degrees of freedom of the hand (end manipulator).
@@ -70,8 +73,13 @@ The degree of freedom of the robot refers to the number of independent coordinat
 原文網址：https://kknews.cc/tech/jk6kel.html
 ![](https://i.imgur.com/xaZHb2u.png)
 
-# 讓我們來畫畫圖
+# 在繪製時如何知道實作出來後能用?
+小編使用的繪圖軟體為Solidworks工程繪圖軟體來繪出自由度為三的機械手臂。在繪圖時，我們要盡量讓模型檔能被實際列印出來。因此諸如會使用到的伺服馬達與周邊配件都可以到"Grabcad" 下載 (Link:https://grabcad.com/library) ，下載後的第一件事，於繪圖軟體中確認模型尺寸是否正確，無誤之後開始基於配件的尺寸大小繪製其餘連桿與機件。成品如下圖：\
+The drawing software used by Xiaobian is Solidworks engineering drawing software to draw a robot with three degrees of freedom. When drawing, we should try our best to make the model file actually print out. Therefore, such as the servo motor and peripheral accessories that can be used can be downloaded from "Grabcad" (Link: https: //grabcad.com/library). The first thing after downloading is to confirm the model size in the drawing software After that, we started to draw the remaining links and parts based on the size of the accessories. The finished product is as follows:
+![](https://i.imgur.com/lt62ekb.png)
 
+
+I am using the Solidworks to draw the robot arm midule
 
 ###### tags: `Robot Arm` `Interaction`
 
