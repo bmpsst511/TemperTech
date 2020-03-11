@@ -54,19 +54,18 @@ In the development of this robotic arm, we expect to use Mechanism rocker and ro
 
 自由度計算(青菜勝勝)
 ---
-公式
-$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$
-DOF = 3(N-1)-2f_{L}-f_{H}\
+公式\
+\begin{gather*}
+DOF = 3(N-1)-2f_{L}-f_{H}\\
 DOF = 3(4-1)-2*2-0 = 3
-
-其中 $N$ 代表機件數，$f_{L}$ 代表低對，$f_{H}$ 代表高對，迴轉對屬低對. 
-
+\end{gather*}
+\
+其中 $N$ 代表機件數，$f_{L}$ 代表低對，$f_{H}$ 代表高對，迴轉對屬低對.\\ 
 **因此我們得到所設計的機械手臂自由度為3**
 
 機器人的自由度是指機器人所具有的獨立坐標軸運動的數目，但一般不包括手部（末端操作器）的開合自由度。
 
-Among them, $N$ represents the number of parts, $f_{L}$ represents the low pair, $f_ {H}$ represents the high pair, and the rotation pair is the low pair.
-
+Among them,$N$represents the number of parts,$f_{L}$ represents the low pair,$f_ {H}$ represents the high pair, and the rotation pair is the low pair.
 **So we get the designed robot arm with 3 degrees of freedom.**
 
 The degree of freedom of the robot refers to the number of independent coordinate axis movements of the robot, but generally does not include the opening and closing degrees of freedom of the hand (end manipulator).
